@@ -21,7 +21,7 @@ body {
 
 .header .row {
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
 }
 
 h1 {
@@ -91,14 +91,14 @@ h1 {
   border-color: #ffa3d8;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .header .row {
     margin: 0 auto;
     width: 100%;
   }
 
   .header {
-    padding: 25px;
+    padding: 35px 25px;
     text-align: center;
   }
 
@@ -121,6 +121,7 @@ h1 {
 .col-sm-6 {
   margin: 20px auto;
 }
+
 .col-sm-6 h3 {
   font-weight: 300;
   margin: 10px auto;
@@ -134,7 +135,7 @@ h1 {
   color: var(--secondary-color);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .body-h2-title {
     text-align: center;
     margin: 0 auto;
@@ -174,7 +175,7 @@ footer .social-media-links {
 
 footer i {
   margin: 0 5px;
-  font-size: 20px;
+  font-size: 25px;
   color: var(--primary-color);
 }
 

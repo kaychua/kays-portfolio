@@ -13,6 +13,12 @@ body {
   background-color: (--white-color);
 }
 
+nav li {
+  font-family: "Playfair Display", serif;
+  color: var(--secondary-color);
+  margin: 0 10px;
+}
+
 /*-- Start of Header --*/
 .header {
   background: var(--background-color);

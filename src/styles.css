@@ -195,7 +195,7 @@ footer .social-media-links {
   margin: 40px auto 15px;
 }
 
-footer i {
+i {
   margin: 0 5px;
   font-size: 25px;
   color: var(--primary-color);

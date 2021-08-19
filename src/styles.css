@@ -227,10 +227,10 @@ footer p {
 }
 
 .carousel-wrapper {
-  padding: 0;
+  padding: 10px;
 }
 
 .carousel-wrapper i {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   color: var(--accent-color);
 }

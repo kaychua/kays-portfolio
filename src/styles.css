@@ -207,3 +207,18 @@ footer p {
 }
 
 /*--Card Carousel--*/
+.carousel-indicators {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  bottom: -70px;
+  margin: 0 auto;
+}
+
+button .carousel-indicators {
+  border: 2px solid var(--secondary-color);
+}
+
+button .carousel-indicators .active {
+  background-color: var(--accent-color);
+}

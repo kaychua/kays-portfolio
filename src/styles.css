@@ -58,6 +58,16 @@ h1 {
   font-size: 25px;
 }
 
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 150ms ease-in-out;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
 .current-interest-text {
   font-size: 20px;
 }
@@ -197,6 +207,11 @@ h1 {
   }
 }
 
+/*--Nav--*/
+
+.navbar-toggler:focus {
+}
+
 /*--Featured Projects Cards--*/
 
 .rotary-img,
@@ -226,7 +241,36 @@ h1 {
   opacity: 80%;
 }
 
-@media only screen and (max-width: 800px) {
+.about-me-icons {
+  display: none;
+}
+
+.about-me-icons-desktop {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25px 0;
+}
+
+.about-me-icons-desktop i {
+  margin: 0 45px 10px;
+  font-size: 60px;
+}
+
+.about-me-icons-desktop .icon-caption {
+  text-align: center;
+}
+
+.about-me-cta {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-me-cta .btn {
+  margin: 10px 20px 0 0;
+  padding: 8px 50px;
+}
+
+@media only screen and (max-width: 768px) {
   .about-me-wrapper {
     padding: 20px;
   }
@@ -235,6 +279,25 @@ h1 {
   .about-me-section h2,
   .col-md-3.about-me-img {
     text-align: center;
+  }
+
+  .about-me-icons {
+    display: flex;
+    justify-content: center;
+  }
+  .about-me-icons i {
+    font-size: 35px;
+    margin: 15px 35px 10px;
+  }
+
+  .icon-caption {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #c4afff;
+  }
+
+  .about-me-icons-desktop {
+    display: none;
   }
 }
 

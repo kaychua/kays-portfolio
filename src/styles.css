@@ -71,6 +71,7 @@ h1 {
   border: 3px dotted black;
   border-radius: 100%;
   box-shadow: var(--box-shadow);
+  transition: all 150ms ease-in-out;
 }
 
 .btn {
@@ -213,8 +214,28 @@ h1 {
   margin-bottom: 15px;
 }
 
-.about-me-img {
-  text-align: center;
+.about-me-img img {
+  border-radius: 60%;
+  margin: 0 0 30px;
+  box-shadow: -10px 10px var(--primary-color);
+  transition: all 150ms ease-in-out;
+}
+
+.kay-image:hover,
+.about-me-img img:hover {
+  opacity: 80%;
+}
+
+@media only screen and (max-width: 800px) {
+  .about-me-wrapper {
+    padding: 20px;
+  }
+
+  .about-me-section h1,
+  .about-me-section h2,
+  .col-md-3.about-me-img {
+    text-align: center;
+  }
 }
 
 /*--Contact Form--*/

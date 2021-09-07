@@ -92,6 +92,12 @@ a:hover {
   transition: all 150ms ease-in-out;
 }
 
+.btn-check:focus,
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .header .btn {
   margin: 10px 20px auto 0px;
 }
@@ -209,7 +215,13 @@ a:hover {
 
 /*--Nav--*/
 
+.navbar-toggler {
+  border: none;
+  box-shadow: none;
+}
+
 .navbar-toggler:focus {
+  box-shadow: 2px 2px 2px 1px var(--primary-color);
 }
 
 /*--Featured Projects Cards--*/
@@ -260,16 +272,6 @@ a:hover {
   text-align: center;
 }
 
-.about-me-cta {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.about-me-cta .btn {
-  margin: 10px 20px 0 0;
-  padding: 8px 50px;
-}
-
 @media only screen and (max-width: 768px) {
   .about-me-wrapper {
     padding: 20px;
@@ -299,21 +301,71 @@ a:hover {
   .about-me-icons-desktop {
     display: none;
   }
+
+  .about-me-cta {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .about-me-cta .btn {
+    margin: 10px 20px 0 0;
+    padding: 8px 50px;
+  }
 }
 
-/*--Contact Form--*/
+/*--Contact Page--*/
+.form h3 {
+  margin: 0 0 30px;
+  font-family: "Playfair Display", serif;
+}
+
+.form.contact-form {
+  text-align: center;
+  padding: 5px 20px;
+}
 
 input {
-  border-radius: 13px;
+  border-radius: 8px;
   border: 1px solid lightgrey;
   padding: 3px 10px;
   margin: 0 10px 0 0;
+  transition: all 80ms ease-in-out;
+}
+
+input#contact-fName,
+input#contact-email {
+  width: 245px;
 }
 
 input#contact-message {
-  width: 396px;
-  height: 100px;
+  width: 500px;
+  padding-bottom: 100px;
   vertical-align: top;
+}
+
+input:focus {
+  outline: none;
+  padding: 2px 9px;
+  border: 2px solid var(--primary-color);
+}
+
+input#contact-submit {
+  display: block;
+  margin: 25px auto 0;
+  padding: 5px 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  input#contact-fName,
+  input#contact-email {
+    width: auto;
+  }
+
+  input#contact-message {
+    width: 396px;
+    padding-bottom: 100px;
+    vertical-align: top;
+  }
 }
 
 /*-- Footer --*/

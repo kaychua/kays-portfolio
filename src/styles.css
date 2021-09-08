@@ -381,7 +381,7 @@ body.about-me-page {
 
 .work-section h3 {
   text-align: center;
-  margin: 10px 0 30px;
+  margin: 10px 0 50px;
   font-size: 20px;
 }
 
@@ -391,6 +391,12 @@ h3.wordpress-h3 {
 
 .dictionary-app.card {
   margin: 12px 20px 55px;
+}
+
+@media only screen and (max-width: 768px) {
+  .dictionary-app.card {
+    margin: 0 0 30px;
+  }
 }
 
 /*--Contact Page--*/

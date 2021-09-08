@@ -104,7 +104,7 @@ a:hover {
 .btn-primary-kay {
   background-color: #a889ff;
   color: #fefefe;
-  padding: 7px 15px;
+  padding: 7px 10px;
 }
 
 .btn-primary-kay:hover {
@@ -142,6 +142,10 @@ a:hover {
 
   .header h3 {
     font-size: 20px;
+  }
+
+  .header .btn {
+    margin: 15px 10px auto 0px;
   }
 }
 
@@ -310,6 +314,7 @@ body.about-me-page {
   .about-me-icons {
     display: flex;
     justify-content: center;
+    padding: 20px;
   }
   .about-me-icons i {
     font-size: 35px;

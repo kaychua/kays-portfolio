@@ -344,7 +344,7 @@ body.about-me-page {
 
   .about-me-cta {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   .about-me-cta .btn {
@@ -366,13 +366,8 @@ body.about-me-page {
     padding: 20px;
   }
 
-  .about-me-cta {
-    display: flex;
-    justify-content: center;
-  }
-
   .about-me-cta .btn {
-    padding: 8px 15px;
+    padding: 8px 20px;
     margin: 20px 7px;
     display: inline-block;
   }

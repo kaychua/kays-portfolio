@@ -92,6 +92,11 @@ a:hover {
   transition: all 150ms ease-in-out;
 }
 
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none;
+}
+
 .header .btn {
   margin: 10px 20px auto 0px;
 }
@@ -229,6 +234,14 @@ a:hover {
 
 /*--About Me Page--*/
 
+body.about-me-page {
+  background-color: var(--background-color);
+}
+
+.about-me-wrapper {
+  padding-top: 30px;
+}
+
 .about-me-section h1,
 .about-me-section h2,
 .about-me-section h3 {
@@ -266,11 +279,28 @@ a:hover {
   text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
-  .about-me-wrapper {
-    padding: 20px;
-  }
+.software-tools {
+  text-align: center;
+}
 
+.software-tools img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin: 15px 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .software-tools {
+    background-color: #eeeafa;
+    margin: 5px 80px;
+    border-radius: 10px;
+    padding: 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .about-me-section h1,
   .about-me-section h2,
   .col-md-3.about-me-img {
@@ -302,8 +332,26 @@ a:hover {
   }
 
   .about-me-cta .btn {
-    margin: 10px 20px 0 0;
+    margin: 10px 20px 20px 0;
     padding: 8px 50px;
+  }
+
+  .software-tools img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 15px auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-me-wrapper {
+    padding: 30px;
+  }
+
+  .about-me-cta .btn {
+    padding: 8px 45px;
   }
 }
 
@@ -369,6 +417,10 @@ footer {
   border-top: 1px solid var(--white-color);
   margin: 50px auto 0px;
   text-align: center;
+}
+
+footer.about-page-footer {
+  background: var(--white-color);
 }
 
 footer .social-media-links {

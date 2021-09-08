@@ -125,7 +125,7 @@ a:hover {
   border-color: #ffa3d8;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .header .row {
     margin: 0 auto;
     width: 100%;
@@ -292,7 +292,7 @@ body.about-me-page {
   width: 80px;
   height: 80px;
   text-align: center;
-  margin: 15px 10px;
+  margin: 20px 10px 10px;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -314,7 +314,7 @@ body.about-me-page {
   .about-me-icons {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 10px 20px;
   }
   .about-me-icons i {
     font-size: 35px;
@@ -343,8 +343,8 @@ body.about-me-page {
 
   .software-tools img {
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 95px;
+    height: 95px;
     text-align: center;
     margin: 15px auto;
   }
@@ -356,7 +356,9 @@ body.about-me-page {
   }
 
   .about-me-cta .btn {
-    padding: 8px 45px;
+    padding: 8px 15px;
+    margin: 20px 7px;
+    display: inline-block;
   }
 }
 

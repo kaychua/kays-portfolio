@@ -374,6 +374,10 @@ body.about-me-page {
 }
 
 /*--Work Page--*/
+.work-wrapper {
+  text-align: center;
+}
+
 .work-section img {
   width: 500px;
   border-radius: 10px;

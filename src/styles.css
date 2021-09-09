@@ -391,8 +391,17 @@ body.about-me-page {
 
 .work-section h3 {
   text-align: center;
-  margin: 10px 0 50px;
+  margin: 10px 0;
   font-size: 20px;
+  font-family: "playfair display", serif;
+}
+
+.work-section {
+  margin-bottom: 35px;
+}
+
+.work-section p {
+  padding: 0 50px;
 }
 
 h3.wordpress-h3 {
@@ -403,9 +412,17 @@ h3.wordpress-h3 {
   margin: 12px auto 55px;
 }
 
+.work-section span.pink-dot {
+  font-size: 28px;
+}
+
 @media only screen and (max-width: 768px) {
   .dictionary-app.card {
     margin: 0 0 30px;
+  }
+
+  .work-section p {
+    padding: 0 20px;
   }
 }
 

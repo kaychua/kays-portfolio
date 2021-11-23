@@ -190,8 +190,10 @@ a:hover {
   line-height: 1.6em;
 }
 
-.card .btn-secondary-kay {
+.card .btn-secondary-kay,
+.card .btn-primary-kay {
   margin-bottom: 15px;
+  margin-right: 5px;
 }
 
 .testimonials {
@@ -235,10 +237,11 @@ a:hover {
 /*--Featured Projects Cards--*/
 
 .rotary-img,
-.enrica-img {
+.enrica-img,
+.dictionary-img {
   margin: 20px 0;
   padding: 0 10px;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
 /*--About Me Page--*/
@@ -409,7 +412,8 @@ h3.wordpress-h3 {
 }
 
 .dictionary-app.card {
-  margin: 12px auto 55px;
+  max-width: 97%;
+  margin: 0 auto 42px;
 }
 
 .work-section span.pink-dot {

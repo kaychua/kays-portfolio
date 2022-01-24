@@ -381,6 +381,12 @@ body.about-me-page {
   text-align: center;
 }
 
+.work-heading {
+  background: (--primary-color);
+  color: (--white-color);
+  text-align: left;
+}
+
 .work-section img {
   width: 500px;
   border-radius: 10px;

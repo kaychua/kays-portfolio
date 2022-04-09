@@ -42,7 +42,7 @@ nav li {
 
 .header .row {
   margin: 0 auto;
-  width: 95%;
+  width: 90%;
 }
 
 h1 {
@@ -54,7 +54,8 @@ h1 {
 .header h2,
 .about-me-section h2 {
   font-weight: 200;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 1.5em;
   color: var(--secondary-color);
 }
 
@@ -83,10 +84,16 @@ a:hover {
 }
 
 .header .kay-image {
-  border: 3px dotted black;
   border-radius: 100%;
-  box-shadow: var(--box-shadow);
+  box-shadow: -10px 10px var(--primary-color);
   transition: all 150ms ease-in-out;
+}
+
+.kay-image:hover,
+.about-me-img img:hover {
+  opacity: 95%;
+  border: 3px solid var(--accent-color);
+  box-shadow: -10px 10px var(--accent-color);
 }
 
 .btn {
@@ -103,7 +110,8 @@ a:hover {
 }
 
 .header .btn {
-  margin: 10px 20px auto 0px;
+  font-size: 18px;
+  margin: 15px 20px auto 0px;
 }
 
 .btn-primary-kay {
@@ -266,11 +274,6 @@ body.about-me-page {
   margin: 0 auto 30px;
   box-shadow: -10px 10px var(--primary-color);
   transition: all 150ms ease-in-out;
-}
-
-.kay-image:hover,
-.about-me-img img:hover {
-  opacity: 80%;
 }
 
 .about-me-icons {
